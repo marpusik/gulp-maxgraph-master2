@@ -1,5 +1,5 @@
-.header{
-  &__container{
+.nav {
+  &__list {
     @include flex-v-center;
   }
 }
