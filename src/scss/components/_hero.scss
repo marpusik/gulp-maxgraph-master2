@@ -1,0 +1,12 @@
+.hero {
+  padding-top: 220px;
+  background-image: url("../img/hero-bg.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--color-gray);
+  &__content {
+    max-width: 590px;
+  }
+}
