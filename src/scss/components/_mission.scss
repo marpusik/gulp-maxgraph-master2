@@ -1,0 +1,14 @@
+.mission{
+  background-color: var(--color-light);
+  &__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 188px;
+  }
+  &__item{
+    &:nth-child(2){
+      text-align: center;
+      @include flex-column-center;
+    }
+  }
+}
