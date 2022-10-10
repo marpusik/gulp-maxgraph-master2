@@ -6,9 +6,35 @@
     gap: 188px;
   }
   &__item{
+    padding-top: 50px;
+    text-align: center;
+    background-position: top center;
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
     &:nth-child(2){
-      text-align: center;
       @include flex-column-center;
     }
+    &--quality{
+      background-image: url("../img/quality.svg");
+    }
+    &--safety{
+      background-image: url("../img/safety.svg");
+    }
+    &--comfort{
+      background-image: url("../img/comfort.svg");
+    }
+  }
+  &__subtitle{
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--color-ebony);
+  }
+  &__descr{
+    margin: 0;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--color-storm);
   }
 }
