@@ -67,4 +67,9 @@
     color: var(--color-ebony);
     transition: color 0.3s ease-in-out;
   }
+  &:hover {
+    &::before {
+      opacity: 1;
+    }
+  }
 }
