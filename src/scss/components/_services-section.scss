@@ -35,10 +35,7 @@
   &::before {
     content: "";
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    inset: 0;
     z-index: 3;
     border-radius: inherit;
     background-position: center;
@@ -51,10 +48,7 @@
   &::after {
     content: "";
     position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+    inset: 0;
     z-index: 5;
     border-radius: inherit;
     background-color: rgba(#1e212c, 0.6);
