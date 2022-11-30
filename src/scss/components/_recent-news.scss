@@ -1,0 +1,17 @@
+.recent__news{
+  padding: 50px 0;
+  background-color: var(--color-light);
+  &__list{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 255px);
+    gap: var(--grid-gap);
+  }
+  &__item {
+    grid-column: 5 span;
+    &:first-child {
+      grid-column: 7 span;
+      grid-row: 2 span;
+    }
+  }
+}
